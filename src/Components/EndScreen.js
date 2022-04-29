@@ -31,7 +31,7 @@ export default function EndScreen() {
                  <p> {quize.optionB}:B</p>
                  <p>{quize.optionC}:C</p>
                  <p className='text-success'> {quize.answer} :جواب </p>
-                 <button onClick={()=>showModal()} className='mt-2  mr-1 border-0 btn-close'> <i className="fa-solid fa-circle-xmark"></i> </button>
+                 <button onClick={()=>showModal()} className='mt-2  mr-1 border-0 btn-close'> <i class="fa-solid fa-circle-xmark"></i> </button>
                  </div>)}
                 
                 </div>}

@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import { QuizeContext } from '../Helper/Context'
 import StartQuiz from '../asset/image/undraw_interaction_design_odgc.png'
-export default function Main() {
+export default function Mian() {
     const{gameState,setGameState}=useContext(QuizeContext) 
     return (
         <div className="main">
